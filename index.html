@@ -72,29 +72,33 @@
 			<aside id="fh5co-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<h1>轻风 <strong></strong> breeze</h1>
-										
-					   		</div>
-				   		</div>
-				   	</li>
 				   	<li style="background-image: url(images/img_bg_2.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
 					   				<div class="slider-text-inner">
-					   					<h1>繁华的都市中，这里是你温馨的港湾，放下一天的工作，沏上一杯茶淡茶，在这里可以驱走你一天的劳累</h1>
-											</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
+										<H1 id="hitokoto">:D 获取中...</H1>
+										
+										<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+										<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+										<!--End-->
+										<script>
+										  fetch('https://v1.hitokoto.cn')
+											.then(function (res){
+											  return res.json();
+											})
+											.then(function (data) {
+											  var hitokoto = document.getElementById('hitokoto');
+											  hitokoto.innerText = data.hitokoto; 
+											})
+											.catch(function (err) {
+											  console.error(err);
+											})
+										</script>
+										   					
+
+						
 			
 
 	<!-- jQuery -->
