@@ -1,0 +1,64 @@
+- class_name: 框架
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+    - name: anzhiyu主题
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true
+    - name: ZYB14のBlog
+      link: https://blog.zybnb.eu.org/
+      avatar: https://pic.ziyuan.wang/2023/07/02/a22c34f54667f.png
+      descr: Is the Order a Cup of Chino?
+      recommend: true
+    - name: VirtualHotBarの博客
+      link: https://blog.hotpe.top/
+      avatar: https://blog.hotpe.top/img/logo.png
+      descr: 一个极度普通的自留地
+      recommend: true
+    - name: 365云栈
+      link: http://blog.hicosor.top
+      avatar: http://blog.hicosor.top/favicon.ico
+      descr: 从未敢想自己能走到何处，只是一直在走罢了
+      recommend: true
+    - name: 天翔TNXGの空间站
+      link: https://tnxg.top/
+      avatar: https://api-space.tnxg.top/avatar?s=qq
+      descr: 明日尚未到来，希望凝于心上
+      recommend: true
+    - name: 自由笔触
+      link: https://cshcp.com/
+      avatar: https://www.cshcp.com/usr/themes/Xc/assets/img/link.png
+      descr: 愿所得皆所期，所失皆无碍！
+      recommend: true
+    - name: 浪浪山的染念
+      link: https://dyedd.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1176996982&s=640
+      descr: 炼丹难，炼丹苦
+      recommend: true
+    - name: New_fei – 小破站
+      link: https://newfei.top
+      avatar: https://cdn.newfei.top/image/2022/12/29/123.jpg
+      descr: 啊吧啊吧！
+      recommend: true
+    - name: 隧三的小仓库
+      link: https://suidaosan.icu
+      avatar: https://s3.bmp.ovh/imgs/2022/12/12/aed9437c1e84185d.jpg
+      descr: 一枚迪克的博客
+      recommend: true

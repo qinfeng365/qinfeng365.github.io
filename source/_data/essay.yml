@@ -1,0 +1,18 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://pic.imgdb.cn/item/651e4c9dc458853aef1c0c0d.png
+  essay_list:
+    - content: 哎呦，还是最终放弃了typecho了，你很好，是我不配！
+      date: 2023/10/05
+    - content: 网站被攻击了，真的服了呀~
+      date: 2022/12/06
+    - content: 全局音乐的动画也处理好了, nice!
+      date: 2022/11/13
+    - content: 把页脚, 首页顶部全都魔改到本地了, 方便后续魔改, 音乐也改成胶囊的样式了, 其实还是想让胶囊可拖拽, 不可点击改变歌词位置的, 但是弄了半天都没弄好就放弃了
+      date: 2022/11/13
+  
